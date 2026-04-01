@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./advancedForm.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h2>Basic Info Form</h2>
+        <form action="">
+
+            <div class="name">
+                <div>
+                    <label for="FName">First Name</label> <br>
+                    <input type="text" name="FName" id="FName" placeholder="Eneter your first name">
+                    <p class="error FnameError"></p>
+                </div>
+                
+                <div>
+                    <label for="LName">Last Name</label><br>
+                    <input type="text" name="LName" id="LName" placeholder="Eneter your last name">
+                    <p class="error LnameError"></p>
+                </div>
+            </div>
+                
+            <div>
+                <label for="birthDate">Date of Birth</label> <br>
+                <input type="date" name="birthDate" id="birthDate" placeholder="Eneter your Date of Birth">
+                <p class="error birthDateError"></p>
+            </div>
+
+            <div>
+                <label for="Email">Email</label><br>
+                <input type="email" name="Email" id="Email" placeholder="Eneter your email">
+                <p class="error EmailError"></p>
+            </div>
+
+            <div>
+                <label for="conEmail">Confirm Email</label><br>
+                <input type="email" name="conEmail" id="conEmail" placeholder="Eneter your email">
+                <p class="error conEmailError"></p>
+            </div>
+
+            <div>
+                <label for="conPass">password </label> <br>
+                <input type="password" name="pass" id="pass">
+                <p class="error passError"></p>
+            </div>
+            
+            <div>
+                <label for="conPass">Confirm Password </label> <br>
+                <input type="password" name="conPass" id="conPass">
+                <p class="error conPassError"></p>
+            </div>
+
+            
+            <button type="submit">Register</button>
+            <P class="errorText"></P>
+        </form>
+    </div>
+
+
+
+    <div class=" container">
+        <h2> User Search</h2>
+      
+        <div class="search">
+            <input type="text" name="" id="">
+            <div class="clear">Clear</div>
+        </div>
+
+        <div class="list" id="list">
+            <h5>Results</h5>
+       
+        </div>
+        
+        </div>
+
+    </div>
+
+    <script src="./advancedForm.js"></script>
+</body>
+</html>
